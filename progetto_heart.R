@@ -1,4 +1,3 @@
-### Segalini Michele & Manzoni Nicolò
 ### Progetto Heart Disease
 
 # carico la library di tidyverse
@@ -359,7 +358,7 @@ dim(x)
 y <- heart_ml[, 3]
 dim(t(y))
 
-# tramite la visualizzazione di un boxplot abbiamo una idea più chiara della distribuzione degli attributi
+# tramite la visualizzazione di un boxplot abbiamo una idea piÃ¹ chiara della distribuzione degli attributi
 par(mfrow = c(1, 2))
 for (i in 1:2) {
   boxplot(x[, i], main = names(heart_ml)[i])
@@ -444,6 +443,6 @@ dotplot(results)
 # summarize best results
 fit_knn$results
 
-# Il modello LDA risulta essere il più accurato 
+# Il modello LDA risulta essere il piÃ¹ accurato 
 
 
